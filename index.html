@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Feliz Aniversário, Tia</title>
+  <title>Feliz Aniversário, Mãe</title>
 
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&display=swap" rel="stylesheet">
 
@@ -20,7 +20,7 @@
       overflow-x: hidden;
     }
 
-    /* Fundo com imagem */
+  
     .background {
       position: fixed;
       inset: 0;
@@ -109,7 +109,7 @@
       100% { transform: scale(1); }
     }
 
-    /* Corações flutuantes */
+    
     .coracao {
       position: fixed;
       bottom: -40px;
@@ -140,20 +140,18 @@
   </style>
 </head>
 <body>
-
+<main>
   <div class="background"></div>
   <div class="overlay"></div>
 
   <div class="container">
     <div class="card">
-      <h1>Feliz aniversário, tia 🤍</h1>
+      <h1>Feliz aniversário, Mãe ❤️</h1>
 
       <p>
-      Que você desfrute do seu dia ao lado das pessoas que realmente valem a pena, no seu lugar preferido, para que seja um dia de calmaria e tranquilidade, perfeito para celebrar a sua vida.
-      Mesmo que eu esteja do outro lado do mundo, ainda consigo expressar minha gratidão através desta página que eu criei só para você. Ela é um pequeno gesto, mas carrega um amor enorme.
+      -
       <br><br>
-      Considere esta página como um presente feito com carinho, para te lembrar do quanto você é especial.
-      Você merece tudo, tia. 🤍
+      -
       </p>
 
       <div class="assinatura">
@@ -161,19 +159,10 @@
       </div>
     </div>
   </div>
+ </main>
 
-  <script>
-    for (let i = 0; i < 26; i++) {
-      const c = document.createElement('div');
-      c.classList.add('coração vermelho');
-      c.innerHTML = '❤️';
-      c.style.left = Math.random() * 100 + 'vw';
-      c.style.animationDuration = (Math.random() * 6 + 6) + 's';
-      c.style.animationDelay = Math.random() * 5 + 's';
-      c.style.fontSize = (Math.random() * 12 + 16) + 'px';
-      document.body.appendChild(c);
-    }
-  </script>
+ <script src="script.js"></script>
 
 </body>
 </html>
+
