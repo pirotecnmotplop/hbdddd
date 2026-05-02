@@ -4,7 +4,7 @@ for (let i = 0; i < TOTAL_CORACOES; i++) {
   const c = document.createElement('div');
   c.classList.add('coracao');
 
-  const emojis = ['🤧', '💚', '💖'];
+  const emojis = ['🤧', '💚'];
   c.innerHTML = emojis[Math.floor(Math.random() * emojis.length)];
 
   c.style.left = Math.random() * 100 + 'vw';
